@@ -1,0 +1,32 @@
+.class__ul{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+}
+.class__li{
+    cursor: pointer;
+    width: 20%;
+    max-width: 300px;
+}
+.class__section{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+.class__section__button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .class__ul{
+        flex-direction: column;
+        align-items: center;
+    }    
+}

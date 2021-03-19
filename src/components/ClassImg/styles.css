@@ -1,0 +1,8 @@
+.img__class{
+    width: 200px;
+    transition: all .2s ease-in-out;
+}
+.img__class:hover, .check{
+    transform: scale(1.1);
+    border: goldenrod solid 5px;
+}

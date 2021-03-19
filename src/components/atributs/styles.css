@@ -1,0 +1,10 @@
+.class__section__atributs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slider__atributs{
+    width: 300px;
+    max-width: 300px;
+}

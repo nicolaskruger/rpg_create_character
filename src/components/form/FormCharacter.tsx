@@ -1,9 +1,9 @@
 import { Step, StepLabel, Stepper } from '@material-ui/core';
 import * as React from 'react';
 import { Atributs, Character, RPGClass } from '../../app/Character';
-import { AtribtsCharacter } from '../AtributsCharacter';
-import { ClassCharacter } from '../ClassCharacter';
-import { FinishCharacter } from '../FinishCharacter';
+import { AtribtsCharacter } from '../atributs/AtributsCharacter';
+import { ClassCharacter } from '../Class/ClassCharacter';
+import { FinishCharacter } from '../finish/FinishCharacter';
 import { NameCharacter } from '../Name/NameCharacter';
 import './styles.css'
 
@@ -40,9 +40,9 @@ function FormCharacter() {
 
     const swith = [
         () => <NameCharacter onSubmit={updateNameCharacter} currChar={character} next={next} />,
-        () => <ClassCharacter currChar={character} next={next} prev={prev} />,
-        () => <AtribtsCharacter currChar={character} next={next} prev={prev} />,
-        () => <FinishCharacter />
+        () => <ClassCharacter onSubmit={updateRPGClass} currChar={character} next={next} prev={prev} />,
+        () => <AtribtsCharacter onSubmit={updateAtributsCharacter} currChar={character} next={next} prev={prev} />,
+        () => <FinishCharacter currCharacer={character} />
     ]
     return (
         <section className="form__section">

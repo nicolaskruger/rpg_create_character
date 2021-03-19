@@ -24,7 +24,7 @@ function NameCharacter({onSubmit, currChar,  next }: NameIntf) {
         <form className="name__section" 
             onSubmit={(evet) => { submit(); }}>
             <TextField
-
+                className = "text__name"
                 required
                 value={name}
                 variant="outlined"

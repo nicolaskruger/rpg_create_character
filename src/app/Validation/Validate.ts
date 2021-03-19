@@ -1,4 +1,5 @@
 import { Atributs } from "../Character";
+import { calcPoints } from "../Character/Atributs";
 
 interface Valid {
     valid: boolean;
@@ -18,9 +19,7 @@ const validName = (name: string): Valid => {
 }
 
 const validAtributs = (atributs:Atributs, max:number): Valid =>{
-    const val = (Object.keys(atributs) as Array<keyof typeof atributs>)
-                        .map(v=>atributs[v])
-                        .reduce((acc,curr)=>acc+curr,0);
+    const val = calcPoints(atributs);
     if(val <= max)
         return {
             valid: true,
