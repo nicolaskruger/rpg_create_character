@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rpg_create_character/static/css/main.6a100638.chunk.css",
+    "main.js": "/rpg_create_character/static/js/main.fde69d1e.chunk.js",
+    "main.js.map": "/rpg_create_character/static/js/main.fde69d1e.chunk.js.map",
+    "runtime-main.js": "/rpg_create_character/static/js/runtime-main.3eea623d.js",
+    "runtime-main.js.map": "/rpg_create_character/static/js/runtime-main.3eea623d.js.map",
+    "static/js/2.0ef4ce3d.chunk.js": "/rpg_create_character/static/js/2.0ef4ce3d.chunk.js",
+    "static/js/2.0ef4ce3d.chunk.js.map": "/rpg_create_character/static/js/2.0ef4ce3d.chunk.js.map",
+    "static/js/3.66869252.chunk.js": "/rpg_create_character/static/js/3.66869252.chunk.js",
+    "static/js/3.66869252.chunk.js.map": "/rpg_create_character/static/js/3.66869252.chunk.js.map",
+    "index.html": "/rpg_create_character/index.html",
+    "static/css/main.6a100638.chunk.css.map": "/rpg_create_character/static/css/main.6a100638.chunk.css.map",
+    "static/js/2.0ef4ce3d.chunk.js.LICENSE.txt": "/rpg_create_character/static/js/2.0ef4ce3d.chunk.js.LICENSE.txt",
+    "static/media/archer.08b86383.png": "/rpg_create_character/static/media/archer.08b86383.png",
+    "static/media/mage.039bfc83.png": "/rpg_create_character/static/media/mage.039bfc83.png",
+    "static/media/warior.150b370c.jpg": "/rpg_create_character/static/media/warior.150b370c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eea623d.js",
+    "static/js/2.0ef4ce3d.chunk.js",
+    "static/css/main.6a100638.chunk.css",
+    "static/js/main.fde69d1e.chunk.js"
+  ]
+}
